@@ -1,4 +1,5 @@
 ### Hi there 👋
+![test2](https://github.com/Smainfet/Smainfet/assets/97527246/cc4ba939-0d9f-40ed-9dc6-48fe3848bd19)
 
 <!--
 **Smainfet/Smainfet** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
