@@ -23,7 +23,7 @@
 </h2>
 
 
-For a better comprehension, here a legend to contextualize my projects :
+For a better comprehension, here is a legend to contextualize my projects :
 
 - 🔒 : Professional project, the code cannot be shown
 
