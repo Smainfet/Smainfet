@@ -47,8 +47,10 @@ Due to the scale of people affected by Covid-19 and because the scanners have gr
 
 I used [data available on kaggle](https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans) labeled by expert in segmentation. To improve training, I removed the volumes where there were no lungs.
 <br />
-<img width="693" alt="Capture d’écran 2023-09-20 à 02 56 57" align="center" src="https://github.com/Smainfet/Smainfet/assets/97527246/be5e62eb-146c-4543-b2d2-f0c861ae05b6">
 
+<p align="center">
+<img width="693" alt="Capture d’écran 2023-09-20 à 02 56 57" class="center" src="https://github.com/Smainfet/Smainfet/assets/97527246/be5e62eb-146c-4543-b2d2-f0c861ae05b6">
+</p>
 
 
 We can imagine that this processing chain will be used to direct health services as quickly and reliably as possible towards the diagnosis of the patient observed, and thus relieve them of this workload.
