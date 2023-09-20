@@ -34,10 +34,10 @@ For a better comprehension, here is a legend to contextualize my projects :
   
 - 🦾 : Robotics project
 
----
-<h3>
+
+<h2>
   📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19
-</h3>
+</h2>
 
 As part of the course _Medical image processing_, i developed a solution to perform an automatic segmentation of lungs affected by COVID-19.
 
@@ -65,18 +65,52 @@ I used [data available on kaggle](https://www.kaggle.com/datasets/andrewmvd/covi
 
 We can imagine that this processing chain will be used to direct health services as quickly and reliably as possible towards the diagnosis of the patient observed, and thus relieve them of this workload.
 
-<h3>
-  📚 〰️ Automatic Segmentation of CT images of lungs affected by COVID-19
-</h3>
+<h2>
+  📚 〰️ Preprocessing of a PPG signal for stress identification and visualization interface
+</h2>
+
 
 An experimental study was carried out on 74 subjects recorded in two states: an initial state of relaxation followed by a phase of stress where the subject performs different stressful tasks (mental calculation, stroop test which is a color game). Four physiological signals including: ECG, PPG, EDA and EMG are recorded during both phases. 
 
+
 As part of this work, I worked on PPG signal preprocessing. I developed a processing chain including: Exploratory data analysis, PPG signal processing and extraction of temporal, frequency and statistical parameters.
 
-At the same time, I worked on an interface capable of reproducing signal acquisition and applying filtering in real time.
+<div align="center">
+<img width="600" alt="Capture d’écran 2023-09-20 à 23 20 32" src="https://github.com/Smainfet/Smainfet/assets/97527246/e5d5ee74-1735-45e1-9c3b-8f18def94166">
+</div>
+
+At the same time, I worked on a PyQt5 interface capable of reproducing signal acquisition and applying filtering in real time.
 
 <div align="center">
   
 ![ezgif com-optimize-2](https://github.com/Smainfet/Smainfet/assets/97527246/d88b68ef-fd39-45f6-8a71-f3ea4d9d0b68)
 
 </div>
+
+<h2>
+  🔒 🩻 MR‐based treatment planning in radiotherapy using deep learning approach
+</h2>
+<div align="center">
+<img width="650" alt="image" src="https://github.com/Smainfet/Smainfet/assets/97527246/b82d8757-c194-418c-8e71-92f8e72c7cdb">
+</div>
+Context : In radiotherapy, MRI is used for target volume and organs-at-risk delineation for its superior soft-tissue contrast as compared to CT imaging. However, MRI does not provide the electron density of tissue necessary for dose calculation. Several methods of synthetic-CT (sCT) generation from MRI data have been developed for radiotherapy dose calculation. 
+
+My work was to test, propose and upgrade different deep learning (DL) sCT generation methods, in order to improve results obtains on the associated image created with the DL method, in the context of MRI-based dose calculation.
+
+I proposed a new cGAN (Conditional generative adversarial network) method based on the 3 MRI image views (transverse, sagittal and coronal) and not only on the axial view (like classic cGAN method).
+
+<div align="center">
+<img width="600" alt="Capture d’écran 2023-09-20 à 23 44 50" src="https://github.com/Smainfet/Smainfet/assets/97527246/b18bf922-e862-4b5d-bc1b-57bd7bd4c651">
+</div>
+
+The 2D+ cGAN (cGAN in the 3 views) consists of generating 3 sCTs (according to each view) per patient, and combined in one sCT by using the median voxel value. 
+
+
+I was able to obtain one of the best result of the literature for sCT generation in the pelvis area.
+
+<div align="center">
+<img width="300" alt="Capture d’écran 2023-09-21 à 00 26 44" src="https://github.com/Smainfet/Smainfet/assets/97527246/bad1bffb-d34c-48db-9d68-321441355f41">
+</div>
+
+[This 2D+ method was published at the ESTRO (European Society Radiation Oncology) 2022 congress.](https://www.estro.org/Congresses/ESTRO-2022/665/imagingacquisitionandprocessing/11217/evaluationofsynthetic-ctgeneratedfromprostatemri-0)
+
