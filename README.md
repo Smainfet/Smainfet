@@ -40,6 +40,14 @@ For a better comprehension, here is a legend to contextualize my projects :
   📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19
 </h3>
 
+As part of the course _Medical image processing_, i developed a solution to perform an automatic segmentation of lungs affected by COVID-19
+
+
+Due to the scale of people affected by Covid-19 and because the scanners have great inter-variability, I proposed a robust and rapid lung segmentation method, using Deep Learning U-Net architecture, which will serve as a pre-processing step of a **hypothetic** chain of automatic diagnosis, to focus the automatic analysis of the CT scan images on the lung region.
+
+
+
+We can imagine that this processing chain will be used to direct health services as quickly and reliably as possible towards the diagnosis of the patient observed, and thus relieve them of this workload.
 <!--
 **Smainfet/Smainfet** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
