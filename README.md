@@ -93,7 +93,8 @@ At the same time, I worked on a PyQt5 interface capable of reproducing signal ac
 <div align="center">
 <img width="650" alt="image" src="https://github.com/Smainfet/Smainfet/assets/97527246/b82d8757-c194-418c-8e71-92f8e72c7cdb">
 </div>
-Context : In radiotherapy, MRI is used for target volume and organs-at-risk delineation for its superior soft-tissue contrast as compared to CT imaging. However, MRI does not provide the electron density of tissue necessary for dose calculation. Several methods of synthetic-CT (sCT) generation from MRI data have been developed for radiotherapy dose calculation. 
+
+In radiotherapy, MRI is used for target volume and organs-at-risk delineation for its superior soft-tissue contrast as compared to CT imaging. However, MRI does not provide the electron density of tissue necessary for dose calculation. Several methods of synthetic-CT (sCT) generation from MRI data have been developed for radiotherapy dose calculation. 
 
 My work was to test, propose and upgrade different deep learning (DL) sCT generation methods, in order to improve results obtains on the associated image created with the DL method, in the context of MRI-based dose calculation.
 
@@ -105,12 +106,17 @@ I proposed a new cGAN (Conditional generative adversarial network) method based 
 
 The 2D+ cGAN (cGAN in the 3 views) consists of generating 3 sCTs (according to each view) per patient, and combined in one sCT by using the median voxel value. 
 
+The biggest problem I encountered was the presence of artifacts in the final sCTs. Artifacts were created upstream of the final sCT, by the sCTs generated on the x and y axis. A lack of space outside the patient's external contour during the testing phase corrupts the generation of the sCT. I concluded that the generator does not have a wide enough intensity dynamic in the MRI to synthesize the sCT correctly, this causes it to confuse the low values of the MRI inside the outer contour ( 20 - 30 intensity) for outdoors (0 intensity).
 
 I was able to obtain one of the best result of the literature for sCT generation in the pelvis area.
 
 <div align="center">
-<img width="300" alt="Capture d’écran 2023-09-21 à 00 26 44" src="https://github.com/Smainfet/Smainfet/assets/97527246/bad1bffb-d34c-48db-9d68-321441355f41">
+  
+| <img width="500" alt="image" src="https://github.com/Smainfet/Smainfet/assets/97527246/2204d1bf-0f75-4074-abbc-6e4dc53b71e3">|<img width="300" alt="Capture d’écran 2023-09-21 à 00 26 44" src="https://github.com/Smainfet/Smainfet/assets/97527246/bad1bffb-d34c-48db-9d68-321441355f41">|
+|   :----:    |    :----:   |
+
 </div>
 
 [This 2D+ method was published at the ESTRO (European Society Radiation Oncology) 2022 congress.](https://www.estro.org/Congresses/ESTRO-2022/665/imagingacquisitionandprocessing/11217/evaluationofsynthetic-ctgeneratedfromprostatemri-0)
+
 
