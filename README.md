@@ -68,3 +68,9 @@ We can imagine that this processing chain will be used to direct health services
 <h3>
   📚 〰️ Automatic Segmentation of CT images of lungs affected by COVID-19é
 </h3>
+
+An experimental study was carried out on 74 subjects recorded in two states: an initial state of relaxation followed by a phase of stress where the subject performs different stressful tasks (mental calculation, stroop test which is a color game). 
+
+Four physiological signals including: ECG, PPG, EDA and EMG are recorded during both phases. As part of this work, I worked on PPG signal preprocessing. I developed a processing chain including: Exploratory data analysis, PPG signal processing and extraction of temporal, frequency and statistical parameters.
+
+At the same time, I worked on an interface capable of reproducing signal acquisition and applying filtering in real time.
