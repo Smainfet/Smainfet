@@ -17,9 +17,9 @@
 <br />
 
 
-<h2>
+<h1>
   🗂️ My projects 
-</h2>
+</h1>
 
 
 For a better comprehension, here is a legend to contextualize my projects :
