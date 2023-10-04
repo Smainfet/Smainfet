@@ -34,19 +34,22 @@ For a better comprehension, here is a legend to contextualize my projects :
   
 - 🦾 : Robotics project
 
+<br />
+<br />
+
 <h2>
-  〰️ Implementation of a Convolutional Neural Network (CNN) to identify respiratory diseases in audio files.
+  〰️ CNN for automated diagnosis of respiratory diseases in audio files.
 </h2>
 
 Respiratory sounds play a crucial role in assessing respiratory well-being and identifying respiratory ailments. The sound emitted when a person breathes is directly related to air movement, changes within lung tissue and the position of secretions within the lung. For instance, the presence of wheezing is a common indication of obstructive airway conditions such as asthma or chronic obstructive pulmonary disease (COPD).
 
-Modern technology, such as digital stethoscopes and various recording methods, enables the capture of these sound patterns. The digital data thus acquired opens up exciting possibilities for the utilization of machine learning in the automated diagnosis of respiratory disorders, including but not limited to asthma, pneumonia, and bronchiolitis.
+Modern technology, such as digital stethoscopes and various recording methods, enables the capture of these sound patterns. The digital data thus acquired opens up exciting possibilities for the utilization of machine learning in the automated diagnosis of respiratory disorders.
 
 <br />
 
 <div align="center">
   
-https://github.com/Smainfet/Smainfet/assets/97527246/9a377af4-e0da-42c2-97ea-4249ef006f44
+https://github.com/Smainfet/Smainfet/assets/97527246/429bee34-eb3f-4bcb-b306-8821a1b1ba70
 
 <sub><sup> *Audio file of a patient with bronchiectasis* </sup></sub>
 </div>
@@ -55,21 +58,31 @@ https://github.com/Smainfet/Smainfet/assets/97527246/9a377af4-e0da-42c2-97ea-424
 
 I have worked on implementing a Convolutional Neural Network (CNN) used to identify respiratory diseases in audio files. The CNN is fed with Mel-Spectrograms, Chromagrams, and Mel-frequency cepstrum features extracted from the input audio files. 
 
+<div align="center">
+<img width="300" alt="image" src="https://github.com/Smainfet/Smainfet/assets/97527246/7e07e2d2-e2e4-41d9-b562-648fed4a10c0">
+</div>
+
+<br />
+
 During processing, audio clips are split into 6-second segments, with zero-padding added if necessary. During training, Mel-Spectrograms, Chromagrams, and Mel-frequency cepstrum features are extracted from the audio files to assist the network in identifying features associated with respiratory diseases occurring at arbitrary times within the recordings.
 
+<div align="center">
 <img width="1081" alt="image" src="https://github.com/Smainfet/Smainfet/assets/97527246/ce182e8d-5e19-4ec9-8a85-6aa7a5d72cc8">
+</div>
 
 <br />
 <br />
 
 <h2>
-  📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19
+  📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19 with U-Net.
 </h2>
 
 As part of the course _Medical image processing_, i developed a solution to perform an automatic segmentation of lungs affected by COVID-19.
 
 
 Due to the scale of people affected by Covid-19 and because the scanners have great inter-variability, I proposed a robust and rapid lung segmentation method, using Deep Learning U-Net architecture, which will serve as a pre-processing step of a **hypothetic** chain of automatic diagnosis, to focus the automatic analysis of the CT scan images on the lung region.
+
+<br />
 
 <div align="center">
 <img width="596" alt="Capture d’écran 2023-09-20 à 11 45 41" src="https://github.com/Smainfet/Smainfet/assets/97527246/03de4915-ecc7-4570-8ef0-e0d6697db765">
@@ -82,7 +95,10 @@ Due to the scale of people affected by Covid-19 and because the scanners have gr
 
 </div>
 
+<br />
+
 I used [data available on kaggle](https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans) labeled by expert in segmentation. To improve training, I removed the volumes where there were no lungs.
+
 <br />
 
 <p align="center">
@@ -91,6 +107,9 @@ I used [data available on kaggle](https://www.kaggle.com/datasets/andrewmvd/covi
 
 
 We can imagine that this processing chain will be used to direct health services as quickly and reliably as possible towards the diagnosis of the patient observed, and thus relieve them of this workload.
+
+<br />
+<br />
 
 <h2>
   📚 〰️ Preprocessing of a PPG signal for stress identification and visualization interface
@@ -102,11 +121,17 @@ An experimental study was carried out on 74 subjects recorded in two states: an 
 
 As part of this work, I worked on PPG signal preprocessing. I developed a processing chain including: Exploratory data analysis, PPG signal processing and extraction of temporal, frequency and statistical parameters.
 
+<br />
+
 <div align="center">
 <img width="600" alt="Capture d’écran 2023-09-20 à 23 20 32" src="https://github.com/Smainfet/Smainfet/assets/97527246/e5d5ee74-1735-45e1-9c3b-8f18def94166">
 </div>
 
+<br />
+
 At the same time, I worked on a PyQt5 interface capable of reproducing signal acquisition and applying filtering in real time.
+
+<br />
 
 <div align="center">
   
@@ -114,12 +139,19 @@ At the same time, I worked on a PyQt5 interface capable of reproducing signal ac
 
 </div>
 
+<br />
+
 <h2>
   🔒 🩻 MR‐based treatment planning in radiotherapy using deep learning approach
 </h2>
+
+<br />
+
 <div align="center">
 <img width="650" alt="image" src="https://github.com/Smainfet/Smainfet/assets/97527246/b82d8757-c194-418c-8e71-92f8e72c7cdb">
 </div>
+
+<br />
 
 In radiotherapy, MRI is used for target volume and organs-at-risk delineation for its superior soft-tissue contrast as compared to CT imaging. However, MRI does not provide the electron density of tissue necessary for dose calculation. Several methods of synthetic-CT (sCT) generation from MRI data have been developed for radiotherapy dose calculation. 
 
