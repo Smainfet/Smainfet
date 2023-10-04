@@ -44,7 +44,7 @@ Modern technology, such as digital stethoscopes and various recording methods, e
 I have worked on implementing a Convolutional Neural Network (CNN) used to identify respiratory diseases in audio files. The CNN is fed with Mel-Spectrograms, Chromagrams, and Mel-frequency cepstrum features extracted from the input audio files. 
 
  <audio preload="auto">
-    <source src="" type="audio/mp3" />
+    <source src="/Users/smain/Downloads/111_1b2_Tc_sc_Meditron.mov" type="audio/mp3" />
   </audio>
 
 
