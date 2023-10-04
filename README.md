@@ -34,20 +34,26 @@ For a better comprehension, here is a legend to contextualize my projects :
   
 - 🦾 : Robotics project
 
-
-
+<h2>
+  〰️ Implementation of a Convolutional Neural Network (CNN) to identify respiratory diseases in audio files.
+</h2>
 
 Respiratory sounds play a crucial role in assessing respiratory well-being and identifying respiratory ailments. The sound emitted when a person breathes is directly related to air movement, changes within lung tissue and the position of secretions within the lung. For instance, the presence of wheezing is a common indication of obstructive airway conditions such as asthma or chronic obstructive pulmonary disease (COPD).
 
 Modern technology, such as digital stethoscopes and various recording methods, enables the capture of these sound patterns. The digital data thus acquired opens up exciting possibilities for the utilization of machine learning in the automated diagnosis of respiratory disorders, including but not limited to asthma, pneumonia, and bronchiolitis.
 
+<br />
+
+<div align="center">
+  
+https://github.com/Smainfet/Smainfet/assets/97527246/9a377af4-e0da-42c2-97ea-4249ef006f44
+
+<sub><sup> *Audio file of a patient with bronchiectasis* </sup></sub>
+</div>
+
+<br />
+
 I have worked on implementing a Convolutional Neural Network (CNN) used to identify respiratory diseases in audio files. The CNN is fed with Mel-Spectrograms, Chromagrams, and Mel-frequency cepstrum features extracted from the input audio files. 
-
-<audio controls>
-  <source src="../111_1b2_Tc_sc_Meditron.mp3" type="audio/mpeg">
-</audio>
-
-
 
 During processing, audio clips are split into 6-second segments, with zero-padding added if necessary. During training, Mel-Spectrograms, Chromagrams, and Mel-frequency cepstrum features are extracted from the audio files to assist the network in identifying features associated with respiratory diseases occurring at arbitrary times within the recordings.
 
