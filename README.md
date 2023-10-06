@@ -38,7 +38,7 @@ For a better comprehension, here is a legend to contextualize my projects :
 <br />
 
 <h2>
-  〰️ CNN for automated diagnosis of respiratory diseases in audio files.
+  〰️ CNN for automated diagnosis of respiratory diseases in audio files
 </h2>
 
 Respiratory sounds play a crucial role in assessing respiratory well-being and identifying respiratory ailments. The sound emitted when a person breathes is directly related to air movement, changes within lung tissue and the position of secretions within the lung. For instance, the presence of wheezing is a common indication of obstructive airway conditions such as asthma or chronic obstructive pulmonary disease (COPD).
@@ -74,7 +74,7 @@ During processing, audio clips are split into 6-second segments, with zero-paddi
 <br />
 
 <h2>
-  📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19 with U-Net.
+  📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19 with U-Net
 </h2>
 
 As part of the course _Medical image processing_, i developed a solution to perform an automatic segmentation of lungs affected by COVID-19.
