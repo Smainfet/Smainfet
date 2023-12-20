@@ -111,10 +111,10 @@ We can imagine that this processing chain will be used to direct health services
 <br />
 <br />
 
-<h2>
-[📚 〰️ Preprocessing of a PPG signal for stress identification and visualization interface](https://github.com/Smainfet/ui_stress)
-</h2>
-[data available on kaggle](https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans)
+
+## [📚 〰️ Preprocessing of a PPG signal for stress identification and visualization interface](https://github.com/Smainfet/ui_stress)
+
+
 
 An experimental study was carried out on 74 subjects recorded in two states: an initial state of relaxation followed by a phase of stress where the subject performs different stressful tasks (mental calculation, stroop test which is a color game). Four physiological signals including: ECG, PPG, EDA and EMG are recorded during both phases. 
 
