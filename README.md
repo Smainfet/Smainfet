@@ -37,9 +37,7 @@ For a better comprehension, here is a legend to contextualize my projects :
 <br />
 <br />
 
-<h2>
-  〰️ CNN for automated diagnosis of respiratory diseases in audio files
-</h2>
+## [〰️ CNN for automated diagnosis of respiratory diseases in audio files](https://github.com/Smainfet/CNN_Breathing)
 
 Respiratory sounds play a crucial role in assessing respiratory well-being and identifying respiratory ailments. The sound emitted when a person breathes is directly related to air movement, changes within lung tissue and the position of secretions within the lung. For instance, the presence of wheezing is a common indication of obstructive airway conditions such as asthma or chronic obstructive pulmonary disease (COPD).
 
