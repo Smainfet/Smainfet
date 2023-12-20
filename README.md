@@ -71,9 +71,7 @@ During processing, audio clips are split into 6-second segments, with zero-paddi
 <br />
 <br />
 
-<h2>
-  📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19 with U-Net
-</h2>
+## [📚 🩻 Automatic Segmentation of CT images of lungs affected by COVID-19 with U-Net](https://github.com/Smainfet/Segmentation_Lungs)
 
 As part of the course _Medical image processing_, i developed a solution to perform an automatic segmentation of lungs affected by COVID-19.
 
