@@ -9,7 +9,7 @@
   
 - 📖 I have just obtained my biomedical engineering diploma from the [University of Technology of Compiegne (UTC)](https://utc.fr)
 
-- 🌱 At the moment, I'm learning about deep learning techniques specifically for medical image processing
+- 🌱 At the moment, I'm learning about deep learning techniques specifically for medical image and biosignal processing
   
 - 📫 Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/sma%C3%AFn-fettem-55865917b/)
   
