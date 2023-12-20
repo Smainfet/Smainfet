@@ -112,7 +112,7 @@ We can imagine that this processing chain will be used to direct health services
 <br />
 
 <h2>
-  📚 〰️ Preprocessing of a PPG signal for stress identification and visualization interface
+  📚 〰️ [Preprocessing of a PPG signal for stress identification and visualization interface](https://github.com/Smainfet/ui_stress)
 </h2>
 
 
